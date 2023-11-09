@@ -14,6 +14,11 @@
 		C03A486B2AF80A5B004BBD56 /* Foods_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A486A2AF80A5B004BBD56 /* Foods_AppTests.swift */; };
 		C03A48752AF80A5B004BBD56 /* Foods_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A48742AF80A5B004BBD56 /* Foods_AppUITests.swift */; };
 		C03A48772AF80A5B004BBD56 /* Foods_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A48762AF80A5B004BBD56 /* Foods_AppUITestsLaunchTests.swift */; };
+		C03A48852AF80A8C004BBD56 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A48842AF80A8C004BBD56 /* Food.swift */; };
+		C03A48882AF80B18004BBD56 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A48872AF80B18004BBD56 /* Home.swift */; };
+		C03A488B2AF80B29004BBD56 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A488A2AF80B29004BBD56 /* Settings.swift */; };
+		C03A488E2AF80F57004BBD56 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A488D2AF80F57004BBD56 /* Repository.swift */; };
+		C04A1E8C2AF8E8A10021A1A0 /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A1E8B2AF8E8A10021A1A0 /* HomeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		C03A48702AF80A5B004BBD56 /* Foods AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foods AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03A48742AF80A5B004BBD56 /* Foods_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods_AppUITests.swift; sourceTree = "<group>"; };
 		C03A48762AF80A5B004BBD56 /* Foods_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C03A48842AF80A8C004BBD56 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		C03A48872AF80B18004BBD56 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C03A488A2AF80B29004BBD56 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C03A488D2AF80F57004BBD56 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		C04A1E8B2AF8E8A10021A1A0 /* HomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,9 @@
 		C03A48582AF80A5A004BBD56 /* Foods App */ = {
 			isa = PBXGroup;
 			children = (
+				C03A488C2AF80F41004BBD56 /* data */,
+				C03A48862AF80A99004BBD56 /* ui */,
+				C03A48832AF80A6B004BBD56 /* model */,
 				C03A48592AF80A5A004BBD56 /* Foods_AppApp.swift */,
 				C03A485B2AF80A5A004BBD56 /* ContentView.swift */,
 				C03A485D2AF80A5A004BBD56 /* Assets.xcassets */,
@@ -125,6 +138,32 @@
 				C03A48762AF80A5B004BBD56 /* Foods_AppUITestsLaunchTests.swift */,
 			);
 			path = "Foods AppUITests";
+			sourceTree = "<group>";
+		};
+		C03A48832AF80A6B004BBD56 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C03A48842AF80A8C004BBD56 /* Food.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C03A48862AF80A99004BBD56 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				C03A48872AF80B18004BBD56 /* Home.swift */,
+				C03A488A2AF80B29004BBD56 /* Settings.swift */,
+				C04A1E8B2AF8E8A10021A1A0 /* HomeDetail.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		C03A488C2AF80F41004BBD56 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C03A488D2AF80F57004BBD56 /* Repository.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03A485C2AF80A5A004BBD56 /* ContentView.swift in Sources */,
+				C04A1E8C2AF8E8A10021A1A0 /* HomeDetail.swift in Sources */,
 				C03A485A2AF80A5A004BBD56 /* Foods_AppApp.swift in Sources */,
+				C03A48882AF80B18004BBD56 /* Home.swift in Sources */,
+				C03A48852AF80A8C004BBD56 /* Food.swift in Sources */,
+				C03A488B2AF80B29004BBD56 /* Settings.swift in Sources */,
+				C03A488E2AF80F57004BBD56 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
